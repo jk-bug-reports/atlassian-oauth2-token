@@ -4,7 +4,7 @@ config();
 
 export const env = {
   CLIENT_ID: process.env.CLIENT_ID,
-  CLIENT_SECRET: process.env.APP_SECRET,
+  CLIENT_SECRET: process.env.CLIENT_SECRET,
   AUTHORIZATION_URL: process.env.AUTHORIZATION_URL,
   APP_SECRET: process.env.APP_SECRET,
 } as {
